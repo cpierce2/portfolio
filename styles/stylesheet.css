@@ -1,0 +1,98 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    font-size: 56pt;
+    text-align: center;
+    contain: content;
+    padding: 10px;
+}
+
+article {
+    background-color: rgb(36, 114, 216);
+    contain: content;
+    padding: .25in;
+    content: inherit;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    text-align: justify;
+    margin-left: 4in;
+    margin-right: 4in;
+    width: fit-content;
+    color: whitesmoke;
+}
+
+.important {
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    color: #c5b69f;
+}
+
+.nav {
+    margin:auto;
+    background-color: antiquewhite;
+    text-underline-offset: 10%;
+    padding: 5pt;
+    width: fit-content;
+}
+
+.buffer {
+    padding-top: .25in;
+    padding-bottom: .25in;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#multi {
+    contain: content;
+    background-color: beige;
+    opacity: .5;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    border: black 2pt solid;
+    margin-left: 4in;
+    margin-right: 4in;
+
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    
+    -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+    
+    -webkit-column-rule-style: solid; 
+    -moz-column-rule-style: solid; 
+    column-rule-style: solid;
+ }
+
+ #my-pic {
+    border: solid navy 6pt;
+    border-radius: 30pt;
+    padding: 10px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ #list-denote {
+    font: small-caption;
+    font-style: italic;
+ }
