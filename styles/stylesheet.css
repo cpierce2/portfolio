@@ -1,5 +1,41 @@
+aside {
+    float: right;
+    width: 30%;
+    padding: 1rem;
+    background: navy;
+    color: white;
+    margin-left: 1rem;
+    border: 2pt solid white;
+    border-radius: 15pt;
+}
+
 body {
     background-color: lightblue;
+}
+
+.box {
+    height: auto;
+    width: 450px;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.flex-container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 header {
@@ -12,66 +48,46 @@ header {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
+    border: 2pt solid navy;
     border-radius: 45pt;
-}
-
-article {
-    background-color: rgb(36, 114, 216);
-    contain: content;
-    padding: .25in;
-    content: inherit;
-}
-
-footer {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-p {
-    text-align: justify;
-    margin-left: 4in;
-    margin-right: 4in;
-    width: fit-content;
-    color: whitesmoke;
+    margin-top: 2rem;
 }
 
 .important {
     font-style: italic;
     font-weight: bolder;
     text-align: center;
-    color: #c5b69f;
+    padding-top: 5rem;
 }
 
-.nav {
-    margin:auto;
-    background-color: antiquewhite;
-    text-underline-offset: 10%;
-    padding: 5pt;
-    width: fit-content;
+#list-denote {
+    font: small-caption;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
-.buffer {
-    padding-top: .25in;
-    padding-bottom: .25in;
+li {
+    margin-left: 1rem;
 }
 
-.center {
+#my-pic {
+    width: 80%;
+    border: solid navy 6pt;
+    border-radius: 30pt;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 #multi {
     contain: content;
-    background-color: beige;
+    background: beige;
     opacity: .5;
     padding-top: 2mm;
     padding-bottom: 2mm;
     border: black 2pt solid;
+    border-radius: 10pt;
     margin-left: 4in;
     margin-right: 4in;
 
@@ -86,19 +102,13 @@ p {
     -webkit-column-rule-style: solid; 
     -moz-column-rule-style: solid; 
     column-rule-style: solid;
- }
+}
 
- #my-pic {
-    border: solid navy 6pt;
-    border-radius: 30pt;
-    padding: 10px;
-    width: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
-
- #list-denote {
-    font: small-caption;
-    font-style: italic;
- }
+.nav {
+    margin:auto;
+    background-color: antiquewhite;
+    text-underline-offset: 10%;
+    padding: 5pt;
+    width: fit-content;
+    margin-top: 2rem;
+}
