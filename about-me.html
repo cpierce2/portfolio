@@ -5,17 +5,23 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Practice</title>
+        <title>About Me</title>
         <meta name="description" content="Website">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/stylesheet.css">
+        <script src="https://kit.fontawesome.com/572d535d48.js" crossorigin="anonymous"></script>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        </style>
     </head>
     <body>
         <header>About Me</header>
 
-        <nav class="nav">
-            <a href="index.html">Home</a> |
-            <a href="about-me.html">About Me</a> |
+        <nav class="nav buffer">
+            <a class="nav-style" href="index.html">Home<span class="footer-style">|</span></a>
+            <a class="nav-style" href="https://github.com/cpierce2">GitHub<span class="footer-style">|</span></a>
+            <a class="nav-style" href="https://www.linkedin.com/in/cpierce29/">Linkedin</a>
         </nav>
 
         <h2 class="important">Lorem ipsum</h2>
@@ -91,8 +97,8 @@
             <h2 class="important">Countries that I have lived in and/or visited:</h2>
 
             <ul id="multi">
-                <li><a href="https://en.wikipedia.org/wiki/United_States">United States of America * </a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Philippines">Philippines * </a></li>
+                <li><a class="footer-nav" href="https://en.wikipedia.org/wiki/United_States">United States of America * </a></li>
+                <li><a class="footer-nav" href="https://en.wikipedia.org/wiki/Philippines">Philippines * </a></li>
                 <li>Canada </li>
                 <li>Mexico </li>
                 <li>England (United Kingdom)</li>                
@@ -116,6 +122,14 @@
             <figcaption id="list-denote">* Denotes the places I have lived</figcaption>
         </section>
 
-        <footer>Thank you for reading about ME!!!</footer>
+        <footer>
+            <nav>
+                <a class="footer-nav" href="index.html">Home<span class="footer-style">/</span></a>
+                <a class="footer-nav" href="https://github.com/cpierce2"><i class="fa-brands fa-github fa-bounce fa-2xl"></i><span class="footer-style">/</span></a>
+                <a class="footer-nav" href="https://www.linkedin.com/in/cpierce29/"><i class="fa-brands fa-linkedin fa-beat-fade fa-2xl"></i></a>
+            </nav>
+
+            <p>Thank you for reading about ME!!!</p>
+        </footer>
     </body>
 </html>

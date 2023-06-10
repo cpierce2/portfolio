@@ -20,11 +20,25 @@ body {
     padding: 1rem;
 }
 
+.buffer {
+    padding: 10px;
+}
+
 .flex-container {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-column {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -36,6 +50,21 @@ footer {
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.footer-nav {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-nav::first-letter {
+    font-size: 36pt;
+    color: aqua;
+}
+
+.footer-style {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 header {
@@ -54,10 +83,18 @@ header {
 }
 
 .important {
-    font-style: italic;
+    font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 36pt;
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px black;
+}
+
+.important::first-letter {
+    font-size: 56pt;
 }
 
 #list-denote {
@@ -81,15 +118,14 @@ li {
 }
 
 #multi {
-    contain: content;
-    background: beige;
-    opacity: .5;
+    background: navy;
+    color: whitesmoke;
     padding-top: 2mm;
     padding-bottom: 2mm;
-    border: black 2pt solid;
+    border: 2pt solid white;
     border-radius: 10pt;
-    margin-left: 4in;
-    margin-right: 4in;
+    margin-left: auto;
+    margin-right: auto;
 
     -webkit-column-count: 4;
     -moz-column-count: 4;
@@ -106,9 +142,21 @@ li {
 
 .nav {
     margin:auto;
-    background-color: antiquewhite;
-    text-underline-offset: 10%;
-    padding: 5pt;
+    background: navy;
     width: fit-content;
     margin-top: 2rem;
+    border-radius: 5pt;
+}
+
+.nav-style {
+    text-decoration: none;
+    color: white;
+}
+
+.project-link {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18pt;
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 5px 5px 10px black;
 }

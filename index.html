@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Portfolio Home</title>
+        <meta name="description" content="Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/stylesheet.css">
+        <script src="https://kit.fontawesome.com/572d535d48.js" crossorigin="anonymous"></script>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        </style>
     </head>
 
     <body>
         <header>Index Page</header>
-        <nav class="nav margin-buffer">
-            <a href="index.html">Home</a> |
-            <a href="about-me.html">About Me</a> |
+        <nav class="nav buffer">
+            <a class="nav-style" href="about-me.html">About Me<span class="footer-style">|</span></a>
+            <a class="nav-style" href="https://github.com/cpierce2">GitHub<span class="footer-style">|</span></a>
+            <a class="nav-style" href="https://www.linkedin.com/in/cpierce29/">Linkedin</a>
         </nav>
 
         <article class="flex-column">
 
-            <h1 class="important buffer">Projects:</h1>
+            <h1 class="important">Projects:</h1>
     
-            <a class="center" href="https://github.com/cpierce2/semantic-elements/blob/master/index.html">Semantics Lesson 1 Project</a><br>
+            <a class="project-link center" href="https://github.com/cpierce2/semantic-elements/blob/master/index.html">Semantics Lesson 1 Project</a><br>
             <img class="center" src="portfolio-pics/index-code-pic.png" width="150" height="250" alt="Image of HTML Code"><br>
 
-            <a class="center" href="https://cpierce2.github.io/portfolio/">My UW Portfolio Project</a><br>
+            <a class="project-link center" href="https://cpierce2.github.io/portfolio/">My UW Portfolio Project</a><br>
             <img class="center" src="portfolio-pics/home-page.png" width="150" height="250" alt="Image of HTML Code"><br>
 
-            <a class="center" href="https://cpierce2.github.io/kitties-to-go/">Kitties to Go!</a><br>
+            <a class="project-link center" href="https://cpierce2.github.io/kitties-to-go/">Kitties to Go!</a><br>
             <img class="center" src="portfolio-pics/ktg.png" width="150" height="250" alt="Image of HTML Code"><br>
         </article>
     
-        <footer>This page is designed by UDub Student Christopher Pierce</footer>
+        <footer>
+            <nav>
+                <a class="footer-nav" href="about-me.html">About Me<span class="footer-style">/</span></a>
+                <a class="footer-nav" href="https://github.com/cpierce2"><i class="fa-brands fa-github fa-bounce fa-2xl"></i><span class="footer-style">/</span></a>
+                <a class="footer-nav" href="https://www.linkedin.com/in/cpierce29/"><i class="fa-brands fa-linkedin fa-beat-fade fa-2xl"></i></a>
+            </nav>
+
+            <p>University of Washington Student Portfolio Page</p>
+        </footer>
     </body>
 </html>
