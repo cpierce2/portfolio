@@ -1,3 +1,5 @@
+/* Stylesheet for Christopher Pierce Portfolio */
+
 aside {
     float: right;
     width: 30%;
@@ -7,6 +9,10 @@ aside {
     margin-left: 1rem;
     border: 2pt solid white;
     border-radius: 15pt;
+}
+
+article a:nth-child(6) {
+    color: palevioletred;
 }
 
 body {
@@ -22,6 +28,25 @@ body {
 
 .buffer {
     padding: 10px;
+}
+
+#delay1 {
+    transition: all .75s ease-in-out;
+}
+
+#delay1:hover {
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+.delay2 {
+    transition: all .75s ease-in-out;
+}
+
+.delay2:hover {
+    font-size: 28px;
+    color: rgb(106, 69, 106);
+    text-shadow: 5px 5px 10px rgb(181, 154, 3);
 }
 
 .flex-container {
@@ -55,11 +80,6 @@ footer {
 .footer-nav {
     color: whitesmoke;
     text-decoration: none;
-}
-
-.footer-nav::first-letter {
-    font-size: 36pt;
-    color: aqua;
 }
 
 .footer-style {
@@ -159,4 +179,11 @@ li {
     text-decoration: none;
     color: antiquewhite;
     text-shadow: 5px 5px 10px black;
+}
+
+.p-background:hover {
+    background-color: rgb(140, 140, 197);
+    padding: .5rem;
+    border: solid 2pt blue;
+    border-radius: 10pt;
 }
