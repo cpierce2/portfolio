@@ -187,3 +187,48 @@ li {
     border: solid 2pt blue;
     border-radius: 10pt;
 }
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 15px;
+    text-align: center;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    background-color: bisque;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 1rem;
+    }
+
+fieldset {
+    width: fit-content;
+    border: 3px solid navy;
+    margin-bottom: 1rem;
+}
+
+input[type=date]:focus {
+    background-color: rgb(221, 217, 217);
+    text-align: center;
+}
+
+input[type=text]:focus {
+    background-color: rgb(221, 217, 217);
+    text-align: center;
+}
+
+input[type=tel]:focus {
+    background-color: rgb(221, 217, 217);
+    text-align: center;
+}
+
+input[type=email]:focus {
+    background-color: rgb(221, 217, 217);
+    text-align: center;
+}

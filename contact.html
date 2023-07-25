@@ -20,23 +20,24 @@
         </nav>
 
         <section>
-            <h1>Conatct Info</h1>
+            <h1 class="important">Conatct Info</h1>
 
-            <form method="get" action="mailto:cpierce2@uw.edu" enctype="multipart/form-data">
+            <div class="form-container">
+                <form method="get" action="mailto:cpierce2@uw.edu" enctype="multipart/form-data">
                     <label>Date
-                        <input type="date" name="date" id="date" required />
+                        <input type="date" name="date" id="date" required>
                     </label>
             
                     <label>Name
-                        <input type="text" name="name" id="name" maxlength="25" placeholder="John Doe" required/>
+                        <input type="text" name="name" id="name" maxlength="25" placeholder="John Doe" required>
                     </label> 
             
                     <label>Contact Number
-                        <input type="tel" name="phone" id="phone" maxlength="13" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}.*" placeholder="(555) 000 - 0000" required />
+                        <input type="tel" name="phone" id="phone" maxlength="13" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}.*" placeholder="(555) 000 - 0000" required>
                     </label>
                       
                     <label>Email
-                        <input type="email" name="email" id="email" placeholder="yourname@email.com" required/>
+                        <input type="email" name="email" id="email" placeholder="yourname@email.com" required>
                     </label>
 
                     <fieldset class="checkbox">
@@ -69,23 +70,24 @@
                         </label>
                     </fieldset>
                   
-                    <label for="hours">How would you like to be contacted?
-                        <select name="hours" size="5" multiple>
+                    <label>How would you like to be contacted?</label>
+                        <select name="opt" size="5" multiple>
                             <option value="" selected>Please select</option>
                             <option value="Phone">Phone</option>
                             <option value="Email">Email</option>
                             <option value="Mail">Mail</option>
                             <option value="All">All</option>
                         </select>
-                    </label>
+                        
             
                     <label>Do you have comments/suggestions for me?
                         <textarea cols="30" rows="6" name="comment" id="comment" style="background-color: #E3E9EE; "></textarea>
-                        <input style="font-weight: bold; background-color: #91DEE4; " type="submit" value="Submit" />
-                        <input style="font-weight: bold; background-color: #91DEE4; " type="reset" value="Reset Form" />
-                        <div style="padding-bottom: 20px; "></div>
                     </label>
-            </form>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset Form">
+                </form>
+            </div>
         </section>
 
         <footer>
