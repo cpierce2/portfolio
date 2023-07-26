@@ -11,10 +11,6 @@ aside {
     border-radius: 15pt;
 }
 
-article a:nth-child(6) {
-    color: palevioletred;
-}
-
 body {
     background-color: lightblue;
 }
@@ -28,15 +24,6 @@ body {
 
 .buffer {
     padding: 10px;
-}
-
-#delay1 {
-    transition: all .75s ease-in-out;
-}
-
-#delay1:hover {
-    font-size: 28px;
-    color: whitesmoke;
 }
 
 .delay2 {
